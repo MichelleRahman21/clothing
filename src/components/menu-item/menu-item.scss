@@ -1,6 +1,6 @@
 .menu-item {
   min-width: 30%;
-  height: 240px;
+  height: 200px;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
@@ -12,18 +12,19 @@
   &:hover {
     cursor: pointer;
 
+
     & .background-image {
       transform: scale(1.1);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
     & .content {
-      opacity: 0.9;
+      opacity: 0.5;
     }
   }
 
   &.large {
-    height: 380px;
+    height: 400px;
   }
 
   &:first-child {
@@ -56,13 +57,14 @@
     .title {
       font-weight: bold;
       margin: 0 6px 0;
-      font-size: 22px;
-      color: #4a4a4a;
+      font-size: 25px;
+      color: #74139A;
     }
 
     .subtitle {
-      font-weight: lighter;
-      font-size: 16px;
+      font-weight: bold;
+      font-size: 10px;
+      color: #9325BF;
     }
   }
 }
